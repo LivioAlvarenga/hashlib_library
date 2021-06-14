@@ -43,8 +43,8 @@ if __name__ == '__main__':
     senha = criar_senha_sha256('Admin')
     bd_username_password = {'admin': senha}
 
-    for usuario, senha in bd_username_password.items():
-        print(f'\nUsuário: {usuario}\nSenha: {senha}\n')
+    for usuário, senha in bd_username_password.items():
+        print(f'\nUsuário: {usuário}\nSenha: {senha}\n')
 
     # .Validando senha
     print('\nVALIDANDO SENHA')
